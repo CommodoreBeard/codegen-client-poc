@@ -1,0 +1,29 @@
+{
+  "name": "codegen-client-poc",
+  "version": "0.0.1",
+  "description": "Proof of concept, auto gen an api client and built a simple test case",
+  "homepage": "https://github.com/CommodoreBeard/codegen-client-poc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CommodoreBeard/codegen-client-poc"
+  },
+  "bugs": {
+    "url": "https://github.com/CommodoreBeard/codegen-client-poc/issues"
+  },
+  "keywords": [
+    "cucumber",
+    "test",
+    "test-automation",
+    "swagger",
+    "openapi"
+  ],
+  "author": "Joe Hughes <joe@joehughes.org>",
+  "contributors": [
+
+  ],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
