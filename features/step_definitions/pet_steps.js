@@ -1,6 +1,6 @@
 'use strict';
 
-let expect = require('chai').expect
+let expect = require('chai').expect;
 let defineSupportCode = require('cucumber').defineSupportCode;
 
 defineSupportCode(function({ Then, When }) {

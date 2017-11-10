@@ -13,7 +13,6 @@ function Actor(baseUrl) {
     let petApi = new SwaggerPetstore.PetApi(apiClient);
 
     this.addSomePet = function() {
-
         let pet = new SwaggerPetstore.Pet('Connie', 'http://doesnotexist.org');
 
         return new Promise(function(resolve, reject) {

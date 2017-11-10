@@ -14,7 +14,7 @@
     "cucumber",
     "test",
     "test-automation",
-    "swagger",
+    "swagger-codegen",
     "openapi"
   ],
   "author": "Joe Hughes <joe@joehughes.org>",
