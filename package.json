@@ -5,7 +5,7 @@
   "homepage": "https://github.com/CommodoreBeard/codegen-client-poc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CommodoreBeard/codegen-client-poc"
+    "url": "git+https://github.com/CommodoreBeard/codegen-client-poc.git"
   },
   "bugs": {
     "url": "https://github.com/CommodoreBeard/codegen-client-poc/issues"
@@ -18,12 +18,17 @@
     "openapi"
   ],
   "author": "Joe Hughes <joe@joehughes.org>",
-  "contributors": [
-
-  ],
+  "contributors": [],
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^3.1.0",
+    "nock": "^9.1.0",
+    "swagger_petstore": "^1.0.0"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js"
   }
 }
